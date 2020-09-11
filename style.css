@@ -17,6 +17,7 @@
     --dark-green:#3b533d;
     --light-red:#ffacaa;
     --red:#fd7a91;
+    --app-green: #13bf95;
 }
 
 html{
@@ -25,6 +26,7 @@ html{
 
 body{
     font-family: sans-serif !important;
+    text-align: justify;
 }
 
 #content {
@@ -34,6 +36,7 @@ body{
 #content .gap-text{
     font-size: 18px!important;
     line-height: 40px!important;
+    text-align: justify;
 }
 
 /* input */
@@ -199,4 +202,13 @@ body{
 /* display none of full screen */
 #AppClientFullscreenButton{
     display: none !important;
+}
+
+.card{
+    background: var(--app-green);
+    border-color: var(--app-green);
+    border-radius: 0.75em;
+    line-height: 30px;
+    font-size: 18px;
+
 }
