@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="064ad95c-3f85-4a77-8e80-77e15ee50ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Davilo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="064ad95c-3f85-4a77-8e80-77e15ee50ad7" name="Default Changelist" comment="setting up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -36,14 +34,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599805969704</updated>
-      <workItem from="1599805972244" duration="1450000" />
+      <workItem from="1599805972244" duration="2390000" />
     </task>
+    <task id="LOCAL-00001" summary="setting up">
+      <created>1599807580792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599807580792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setting up" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting up" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="474" y="300" width="417" height="201" key="Github.CreateGistDialog" timestamp="1599807784824">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="474" y="300" width="417" height="201" key="Github.CreateGistDialog/0.27.1366.741@0.27.1366.741" timestamp="1599807784824" />
     <state x="544" y="297" width="277" height="207" key="Github.ShareDialog" timestamp="1599806779701">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -52,9 +66,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="445" y="84" width="465" height="633" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1599806815848" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599807423255">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599807606399">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1599807423255" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1599807606399" />
   </component>
 </project>
