@@ -1,0 +1,12 @@
+.input-field{
+    max-width: calc(100% - 10px);
+    display: inline-block;
+    height: 2em;
+    font-size: inherit;
+    padding: 0;
+    padding-left: 0.3em;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
