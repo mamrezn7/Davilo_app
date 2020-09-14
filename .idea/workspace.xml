@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="064ad95c-3f85-4a77-8e80-77e15ee50ad7" name="Default Changelist" comment="card updated">
-      <change afterPath="$PROJECT_DIR$/Davilo_js.js" afterDir="false" />
+    <list default="true" id="064ad95c-3f85-4a77-8e80-77e15ee50ad7" name="Default Changelist" comment="button and overall fixes">
+      <change afterPath="$PROJECT_DIR$/style2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -15,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,6 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +68,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599805969704</updated>
-      <workItem from="1599805972244" duration="13119000" />
+      <workItem from="1599805972244" duration="13909000" />
+      <workItem from="1599828278842" duration="688000" />
+      <workItem from="1600091857159" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="setting up">
       <created>1599807580792</created>
@@ -78,18 +100,38 @@
       <option name="project" value="LOCAL" />
       <updated>1599813458008</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="button and overall fixes">
+      <created>1599826085996</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599826085996</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setting up" />
     <MESSAGE value="select added" />
     <MESSAGE value="style updated" />
     <MESSAGE value="card updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="card updated" />
+    <MESSAGE value="button and overall fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="button and overall fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="300" width="417" height="201" key="Github.CreateGistDialog" timestamp="1599807784824">
@@ -104,9 +146,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="445" y="84" width="465" height="633" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1599806815848" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599813460719">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599826089051">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1599813460719" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1599826089051" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+/* General stylesheet for all games*/
 :root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
@@ -40,51 +41,6 @@ body{
     font-size: 18px!important;
     line-height: 40px!important;
     text-align: justify;
-}
-
-/* input */
-.dropdown-toggle{
-    border-radius: 30px;
-    border: 3px solid #dadada !important;
-    display: block !important;
-}
-
-.dropdown-toggle:hover {
-    background: var(--light-tifany)!important;
-    border-color: var(--light-gray)!important;
-}
-
-.dropdown-toggle:active,.dropdown-toggle:focus{
-    border: none!important;
-    outline: none!important;
-}
-
-.dropdown-toggle:focus{
-    border: 1.5px solid var(--tifany)!important;
-}
-
-.dropdown-menu{
-    border: 1px solid var(--light-gray)!important;
-    border-radius: 15px !important;
-    overflow: scroll;
-    background: var(--white)!important;
-}
-.gap-dropdown{
-    margin: 0 3px!important;
-    padding: 0!important;
-}
-.dropdown-menu li{
-    text-align: center!important;
-    border-bottom: 1px solid var(--light-gray-10)!important;
-}
-
-.dropdown-menu li:last-child{
-    border-bottom: none!important;
-}
-
-.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-    background-color: var(--white)!important;
-    border: 1.5px solid var(--tifany) !important;
 }
 
 /* custom scrollbar */
@@ -150,11 +106,11 @@ body{
 /* meseage */
 #AppClientTaskPanel{
     border-radius: 8px !important;
-    background-color: var(--white)!important;
-    border-top: 9px solid var(--orange)!important;
-    border-left: 1px solid var(--light-gray)!important;
-    border-right: 1px solid var(--light-gray)!important;
-    border-bottom: 1px solid var(--light-gray)!important;
+    background-color: var(--white) !important;
+    border-top: 9px solid #DEB887 !important;
+    border-left: 1px solid var(--light-gray) !important;
+    border-right: 1px solid var(--light-gray) !important;
+    border-bottom: 1px solid var(--light-gray) !important;
     padding: 25px!important;
     -webkit-box-shadow:none !important;
     box-shadow:none !important;
@@ -187,7 +143,7 @@ body{
     padding: 5px!important;
     border: none!important;
     color: var(--white)!important;
-    background: var(--blue);
+    background: #1757CA !important;
     border-radius: 20px!important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
