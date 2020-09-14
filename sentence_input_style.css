@@ -208,7 +208,7 @@ body{
 
 /*Input*/
 .input-field{
-    max-width: calc(100% - 10px);
+    width: calc(100% - 10px);
     display: inline-block;
     height: 2em;
     font-size: inherit;
