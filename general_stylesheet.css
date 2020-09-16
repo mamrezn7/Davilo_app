@@ -28,7 +28,7 @@ html{
 body{
     font-family: sans-serif !important;
     text-align: justify;
-    background: var(--light-gray-10);
+    background: var(--light-gray-10) !important;
 }
 
 #content {
