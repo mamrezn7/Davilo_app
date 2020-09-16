@@ -1,4 +1,4 @@
-/* The Game with blank for words*/
+/* General stylesheet for all games*/
 :root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
@@ -252,3 +252,7 @@ body{
 }
 
 /*end of general css*/
+
+.overflow-wrap > #cards{
+    background: var(--light-gray-10);
+}

@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064ad95c-3f85-4a77-8e80-77e15ee50ad7" name="Default Changelist" comment="button and overall fixes">
+      <change afterPath="$PROJECT_DIR$/cards_game.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentece_input_test.css" beforeDir="false" afterPath="$PROJECT_DIR$/sentece_input_test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown_words_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown_words_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/general_stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentence_input_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sentence_input_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
       <updated>1599805969704</updated>
       <workItem from="1599805972244" duration="13909000" />
       <workItem from="1599828278842" duration="688000" />
-      <workItem from="1600091857159" duration="4665000" />
+      <workItem from="1600091857159" duration="6358000" />
     </task>
     <task id="LOCAL-00001" summary="setting up">
       <created>1599807580792</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600096963081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sentece_input_test.css and sentence_input_style.css updated">
+      <created>1600097674782</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600097674782</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +156,8 @@
     <MESSAGE value="button and overall fixes" />
     <MESSAGE value="style.css changed to dropdown_words_style.css&#10;general_stylesheet.css added for general page styles" />
     <MESSAGE value="sentece_input_test.css and sentence_input_style.css added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentece_input_test.css and sentence_input_style.css added" />
+    <MESSAGE value="sentece_input_test.css and sentence_input_style.css updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentece_input_test.css and sentence_input_style.css updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="300" width="417" height="201" key="Github.CreateGistDialog" timestamp="1599807784824">
@@ -162,9 +172,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="445" y="84" width="465" height="633" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1599806815848" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600096966031">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600097676709">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1600096966031" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1600097676709" />
   </component>
 </project>
