@@ -28,6 +28,7 @@ html{
 body{
     font-family: sans-serif !important;
     text-align: justify;
+    background: var(--light-gray-10);
 }
 
 #content {

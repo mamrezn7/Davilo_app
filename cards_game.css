@@ -1,4 +1,4 @@
-/* General stylesheet for all games*/
+
 :root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
@@ -28,6 +28,7 @@ html{
 body{
     font-family: sans-serif !important;
     text-align: justify;
+    background: var(--light-gray-10);
 }
 
 #content {
@@ -252,7 +253,6 @@ body{
 }
 
 /*end of general css*/
-
 .overflow-wrap > #cards{
     background: var(--light-gray-10);
 }
