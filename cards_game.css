@@ -10,6 +10,6 @@
     background: var(--light-gray-10);
 }
  .dragging{
-     animation: breathing;
-     transition: 0.75s;
+     animation-name: breathing;
+     animation-duration: 0.75s;
  }
