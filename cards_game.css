@@ -49,6 +49,7 @@
      -webkit-animation-name: breathing;
      -webkit-animation-duration: 2s;
      -webkit-animation-iteration-count: infinite;
+     z-index: 9999;
  }
 
  .card{
