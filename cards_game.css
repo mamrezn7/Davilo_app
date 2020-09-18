@@ -9,7 +9,8 @@
 .overflow-wrap > #cards{
     background: var(--light-gray-10);
 }
- .dragging{
+ .card.dragging{
      animation-name: breathing;
-     animation-duration: 0.75s;
+     animation-duration: 1.5s;
+     animation-iteration-count: infinite;
  }
