@@ -1,7 +1,15 @@
 @import url("https://raw.githack.com/mamrezn7/Davilo_app/master/general_stylesheet.css");
 
 /*end of general css*/
-
+ @keyframes breathing {
+     0%{transform: scale(1);}
+     50%{transform: scale(1.1);}
+     100%{transform: scale(1);}
+ }
 .overflow-wrap > #cards{
     background: var(--light-gray-10);
 }
+ .dragging{
+     animation: breathing;
+     transition: 0.75s;
+ }
