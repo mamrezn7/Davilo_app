@@ -34,6 +34,105 @@
      }
  }
 
+@-moz-keyframes breathing {
+    0%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -o-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    }
+    50%{
+        transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -o-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+    }
+    100%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -o-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    }
+}
+
+@-o-keyframes breathing {
+    0%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -o-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    }
+    50%{
+        transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -o-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+    }
+    100%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -o-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    }
+}
+
+@-webkit-keyframes breathing {
+    0%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -o-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    }
+    50%{
+        transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -o-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 3px 6px rgba(0,0,0,.35);
+    }
+    100%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -o-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+        -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    }
+}
+
 .overflow-wrap > #cards{
     background: var(--light-gray-10);
 }
