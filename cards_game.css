@@ -3,7 +3,7 @@
 /*end of general css*/
  @keyframes breathing {
      0%{transform: scale(1);}
-     50%{transform: scale(1.1);}
+     50%{transform: scale(1.05);}
      100%{transform: scale(1);}
  }
 .overflow-wrap > #cards{
@@ -11,6 +11,15 @@
 }
  .card.dragging{
      animation-name: breathing;
-     animation-duration: 1.5s;
+     animation-duration: 2s;
      animation-iteration-count: infinite;
+     -moz-animation-name: breathing;
+     -moz-animation-duration: 2s;
+     -moz-animation-iteration-count: infinite;
+     -o-animation-name: breathing;
+     -o-animation-duration: 2s;
+     -o-animation-iteration-count: infinite;
+     -webkit-animation-name: breathing;
+     -webkit-animation-duration: 2s;
+     -webkit-animation-iteration-count: infinite;
  }
