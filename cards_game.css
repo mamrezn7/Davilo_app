@@ -33,6 +33,7 @@
          -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
      }
  }
+
 .overflow-wrap > #cards{
     background: var(--light-gray-10);
 }
@@ -58,3 +59,17 @@
      -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
      -moz-box-shadow: 0 2px 4px rgba(0,0,0,.35);
  }
+
+ /*hide full-screen modal and fade effect*/
+.modal *{
+    display: none !important;
+}
+.modal.fade.in{
+    display: none !important;
+}
+.modal-backdrop.in {
+    display: none!important;
+}
+.modal-open .modal {
+    display: none !important;
+}
