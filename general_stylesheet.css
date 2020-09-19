@@ -252,4 +252,9 @@ body{
     -o-border-radius: 50% !important;
 }
 
+#AppClientHelpButton {
+    right: 10px;
+    top: 10px;
+}
+
 /*end of general css*/

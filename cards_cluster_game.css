@@ -163,6 +163,16 @@
 .cluster{
     border: 2px solid var(--light-gray-10);
 }
+.cluster>img{
+    border-radius: 10px;
+}
 .colorOverlay{
     border-radius: 10px;
+}
+.cluster .clusterHint{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 2% !important;
+    border-right: 10px;
 }
