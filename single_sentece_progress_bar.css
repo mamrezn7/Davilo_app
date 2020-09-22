@@ -1,0 +1,14 @@
+@import url("https://raw.githack.com/mamrezn7/Davilo_app/master/general_stylesheet.css");
+
+/*end of general css*/
+
+#mainpage:nth-child(2){
+    width: auto;
+}
+
+#mainpage > div > div{
+    height: 5px !important;
+}
+.ui-widget-header{
+    filter: sepia(1) saturate(500%) hue-rotate(40deg);
+}
