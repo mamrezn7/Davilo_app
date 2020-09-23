@@ -13,5 +13,6 @@
     filter: sepia(1) saturate(500%) hue-rotate(40deg);
 }
 .ui-btn-up-b{
-
+    background-image: var(--blue) !important;
+    border: none;
 }
