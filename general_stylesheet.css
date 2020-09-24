@@ -256,5 +256,16 @@ body{
     right: 10px;
     top: 10px;
 }
+/*jquery mobile css*/
+.ui-widget-header{
+    filter: sepia(1) saturate(500%) hue-rotate(40deg);
+}
+.ui-btn-up-b{
+    background-image: var(--blue) !important;
+    border: none;
+}
+.ui-btn-down-b{
+    background-image: var(--light-blue);
+}
 
 /*end of general css*/

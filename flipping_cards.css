@@ -1,0 +1,12 @@
+@import url("https://raw.githack.com/mamrezn7/Davilo_app/master/general_stylesheet.css");
+
+/*end of general css*/
+
+.flippeddone{
+    -moz-box-shadow:    inset 0 0 25px lime;
+    -webkit-box-shadow: inset 0 0 25px lime;
+    box-shadow:         inset 0 0 25px lime;
+}
+#counter{
+    font-size: 20px;
+}
