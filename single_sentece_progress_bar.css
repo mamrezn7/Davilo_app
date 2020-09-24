@@ -16,3 +16,6 @@
     background-image: var(--blue) !important;
     border: none;
 }
+.ui-btn-down-b{
+    background-image: var(--light-blue);
+}
