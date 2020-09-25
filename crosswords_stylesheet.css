@@ -1,0 +1,193 @@
+@import url("https://raw.githack.com/mamrezn7/Davilo_app/master/general_stylesheet.css");
+
+/*end of general css*/
+
+/* line 23, ../../app/learningApps-org/base/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif !important;
+    font-weight: normal!important;
+}
+
+*:focus{
+    outline: none !important;
+}
+
+/* body */
+#wrapper{
+    background-color: var(--light-gray-10) !important;
+
+}
+#crossword{
+    margin: 10% 0!important;
+    height: 628px!important;
+}
+
+/* grid body */
+.highlight{
+    -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
+    box-shadow: 0px 0px 0px 2px var(--red) !important;
+}
+#innerCrossword .filled{
+    border: 1px solid var(--light-gray)!important;
+    background: var(--white)  !important;
+    cursor: pointer!important;
+    border-radius: 5px!important;
+    color: var(--light-black);
+    padding:4px !important;
+}
+
+/* modal */
+.field {
+    padding:15px !important;
+    border: 1px solid var(--light-gray-10)!important;
+    vertical-align: middle!important;
+    text-align: center!important;
+    font-family: Arial!important;
+    font-weight: bold!important;
+    border-radius: 3px!important;
+    -webkit-box-shadow: 0px 0px 2px var(--light-gray)!important;
+    box-shadow: 0px 0px 2px var(--light-gray)!important;
+    -webkit-border-radius: 3px!important;
+    -moz-border-radius: 3px!important;
+    -ms-border-radius: 3px!important;
+    -o-border-radius: 3px!important;
+}
+
+#questionSidePanel{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border-radius: 8px!important;
+    border: none!important;
+    background: var(--white)!important;
+    width: 45%!important;
+    margin: 0 auto 0 !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important
+}
+
+#questionSidePanel div{
+    opacity: 1 !important;
+}
+
+#questionSidePanel div:nth-child(1){
+    border-radius: 8px!important;
+    border: none!important;
+}
+
+#questionSidePanel div:nth-child(2) img{
+    opacity: 0.5!important;
+    border-radius: 25px!important;
+    padding: 6px !important;
+    margin: 5px !important;
+    background: rgb(185 185 185)!important;
+}
+
+#questionDisplay{
+    border:1px solid var(--light-gray)!important;
+    border-radius: 8px!important;
+    padding: 20px 50px!important;
+    height: 100vh!important;
+}
+
+.inputElement{
+    border: none !important;
+}
+
+#questionDisplay div img{
+    background: var(--white)!important;
+    margin: 0px auto!important;
+    border-radius: 3px!important;
+    border: 2px inset rgb(249 249 249) !important;
+    max-height: 200px;
+    width: 200px;
+    margin-bottom: 15px !important;
+}
+
+#questionDisplay div:nth-child(2){
+    height: 50px!important;
+}
+
+#questionDisplay b:first-child{
+    display: block!important;
+    text-align: center!important;
+    font-size: 16px!important;
+    padding: 0 0 15px 0!important;
+}
+
+#questionDisplay b{
+    display: none;
+}
+
+#questionDisplay br{
+    display: none !important;
+}
+
+#questionDisplay .filled{
+    margin:4px!important;
+    background: var(--white)!important;
+    height: 50px !important;
+    border-radius: 2px!important;
+    padding: 10px !important;
+    -webkit-border-radius: 2px!important;
+    -moz-border-radius: 2px!important;
+    -ms-border-radius: 2px!important;
+    -o-border-radius: 2px!important;
+}
+
+#questionDisplay input[type=button]{
+    font-size: 120%!important;
+    width: 100%!important;
+    margin: 25px 0 0!important;
+    padding: 5px!important;
+    border: none!important;
+    color: var(--white)!important;
+    background: var(--blue);
+    border-radius: 20px!important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#questionDisplay input[type=button]:hover{
+    opacity: 0.5!important;
+}
+
+#questionDisplay div:last-child{
+    margin: 5px calc(50% - 30%) !important;
+}
+
+.blink {
+    -webkit-box-shadow: 0 0 0px 3px var(--tifany)!important;
+    box-shadow: 0 0 0px 3px var(--tifany)!important;
+}
+
+@keyframes blink{
+    50%{
+        background-color: var(--white)!important;
+    }
+}
+
+#AppClientTaskButton a img{
+    display: none !important;
+}
+
+/* ************Responsive*************** */
+
+@media screen and (min-width: 28.75em) {
+    #questionSidePanel{
+        width: 100%!important;
+    }
+}
+
+@media screen and (min-width: 40.5em) {
+    #questionSidePanel{
+        width: 40%!important;
+    }
+}
+#crossword{
+    width: 100%;
+}
+
+#innerCrossword>div {
+    width: 100%;
+}
