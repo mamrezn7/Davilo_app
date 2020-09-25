@@ -2,6 +2,47 @@
 
 /*end of general css*/
 
+@keyframes blinking {
+    0%{
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
+        box-shadow: 0px 0px 0px 2px var(--red) !important;
+    }
+    100%{
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+@-o-keyframes blinking {
+    0%{
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
+        box-shadow: 0px 0px 0px 2px var(--red) !important;
+    }
+    100%{
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+@-webkit-keyframes blinking {
+    0%{
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
+        box-shadow: 0px 0px 0px 2px var(--red) !important;
+    }
+    100%{
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+@-moz-keyframes blinking {
+    0%{
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
+        box-shadow: 0px 0px 0px 2px var(--red) !important;
+    }
+    100%{
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
 /* line 23, ../../app/learningApps-org/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif !important;
@@ -33,7 +74,6 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer!important;
     border-radius: 5px!important;
     color: var(--light-black);
-    padding:4px !important;
 }
 
 /* modal */
@@ -157,8 +197,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blink {
-    -webkit-box-shadow: 0 0 0px 3px var(--tifany)!important;
-    box-shadow: 0 0 0px 3px var(--tifany)!important;
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: blinking;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: blinking;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-name: blinking;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes blink{
@@ -188,6 +238,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-#innerCrossword>div {
+#innerCrossword>table {
     width: 100%;
 }
