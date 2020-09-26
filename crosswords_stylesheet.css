@@ -1,11 +1,12 @@
 @import url("https://raw.githack.com/mamrezn7/Davilo_app/master/general_stylesheet.css");
 
 /*end of general css*/
+/*
 
 @keyframes blinking {
     0%{
-        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
-        box-shadow: 0px 0px 0px 2px var(--red) !important;
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red);
+        box-shadow: 0px 0px 0px 2px var(--red);
     }
     100%{
         -webkit-box-shadow: none;
@@ -14,8 +15,8 @@
 }
 @-o-keyframes blinking {
     0%{
-        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
-        box-shadow: 0px 0px 0px 2px var(--red) !important;
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red);
+        box-shadow: 0px 0px 0px 2px var(--red);
     }
     100%{
         -webkit-box-shadow: none;
@@ -24,8 +25,8 @@
 }
 @-webkit-keyframes blinking {
     0%{
-        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
-        box-shadow: 0px 0px 0px 2px var(--red) !important;
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red);
+        box-shadow: 0px 0px 0px 2px var(--red);
     }
     100%{
         -webkit-box-shadow: none;
@@ -34,14 +35,15 @@
 }
 @-moz-keyframes blinking {
     0%{
-        -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
-        box-shadow: 0px 0px 0px 2px var(--red) !important;
+        -webkit-box-shadow: 0px 0px 0px 2px var(--red);
+        box-shadow: 0px 0px 0px 2px var(--red);
     }
     100%{
         -webkit-box-shadow: none;
         box-shadow: none;
     }
 }
+*/
 
 /* line 23, ../../app/learningApps-org/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
@@ -65,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* grid body */
 .highlight{
-    -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
-    box-shadow: 0px 0px 0px 2px var(--red) !important;
+    -webkit-box-shadow: 0px 0px 0px 2px lime !important;
+    box-shadow: 0px 0px 0px 2px lime !important;
 }
 #innerCrossword .filled{
     border: 1px solid var(--light-gray)!important;
@@ -74,6 +76,9 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer!important;
     border-radius: 5px!important;
     color: var(--light-black);
+    -moz-box-shadow: 0 0 3px #888;
+    -webkit-box-shadow: 0 0 3px #888;
+    box-shadow: 0 0 3px #888;
 }
 
 /* modal */
@@ -85,8 +90,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Arial!important;
     font-weight: bold!important;
     border-radius: 3px!important;
-    -webkit-box-shadow: 0px 0px 2px var(--light-gray)!important;
-    box-shadow: 0px 0px 2px var(--light-gray)!important;
+/*    -webkit-box-shadow: 0px 0px 2px var(--light-gray)!important;
+    box-shadow: 0px 0px 2px var(--light-gray)!important;*/
     -webkit-border-radius: 3px!important;
     -moz-border-radius: 3px!important;
     -ms-border-radius: 3px!important;
@@ -126,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 #questionDisplay{
     border:1px solid var(--light-gray)!important;
     border-radius: 8px!important;
-    padding: 20px 50px!important;
+    padding: 15% 0 !important;
     height: 100vh!important;
 }
 
@@ -138,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--white)!important;
     margin: 0px auto!important;
     border-radius: 3px!important;
-    border: 2px inset rgb(249 249 249) !important;
+    /*border: 2px inset rgb(249 249 249) !important;*/
     max-height: 200px;
     width: 200px;
     margin-bottom: 15px !important;
@@ -165,7 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #questionDisplay .filled{
     margin:4px!important;
-    background: var(--white)!important;
     height: 50px !important;
     border-radius: 2px!important;
     padding: 10px !important;
@@ -193,11 +197,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay div:last-child{
-    margin: 5px calc(50% - 30%) !important;
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .blink {
-    animation-name: blinking;
+ /*   animation-name: blinking;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     -moz-animation-name: blinking;
@@ -208,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-animation-iteration-count: infinite;
     -webkit-animation-name: blinking;
     -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;*/
 }
 
 @keyframes blink{
@@ -240,4 +246,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #innerCrossword>table {
     width: 100%;
+}
+#solutionword{
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    padding: 0 !important;
+    width: auto !important;
 }
