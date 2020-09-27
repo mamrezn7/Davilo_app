@@ -5,6 +5,7 @@
 #wordgrid{
     table-layout: fixed;
     width: 100%;
+    margin-top: 15%;
 }
 
 #innerWordgrid{
@@ -12,10 +13,16 @@
     padding-left: 5%;
 }
 
+/*
 #innerWordgrid>table{
     width: 100%;
 }
+*/
 
 #solutions li span{
     font-size: 16px !important;
+}
+#wordgrid td:nth-child(2)>div:nth-child(1){
+    width: auto !important;
+    padding-left: 1em !important;
 }
