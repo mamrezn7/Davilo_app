@@ -243,10 +243,10 @@ h1, h2, h3, h4, h5, h6 {
 #crossword{
     width: 100%;
 }
-
+/*
 #innerCrossword>table {
     width: 100%;
-}
+}*/
 #solutionword{
     position: absolute !important;
     left: 50% !important;
