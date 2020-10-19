@@ -1,5 +1,274 @@
-@import url("https://raw.githack.com/mamrezn7/Davilo_app/master/general_stylesheet.css");
+/* General stylesheet for all games*/
+:root {
+    --tifany:#1DE9B6;
+    --light-tifany: #B2DFDB;
+    --light-orange-10:#ffcd7b;
+    --light-orange:#ffaa20;
+    --orange:#ff9e00;
+    --light-blue:#2e80e9;
+    --blue : #0f6ce3;
+    --light-gray-10: #f9f9f9;
+    --light-gray: #d2d2d2;
+    --gray:#959595;
+    --white : #ffffff;
+    --light-black :#353535;
+    --black: #000000;
+    --light-green-10: #edf9ec;
+    --light-green:#b0e4b4;
+    --dark-green:#3b533d;
+    --light-red:#ffacaa;
+    --red:#fd7a91;
+    --app-green: #13bf95;
+}
 
+html{
+    scroll-behavior: smooth!important;
+}
+
+body{
+    font-family: sans-serif !important;
+    text-align: justify;
+    background: var(--light-gray-10) !important;
+}
+
+#content {
+    background: var(--light-gray-10)!important;
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 120px !important;
+}
+
+#content .gap-text{
+    font-size: 18px!important;
+    line-height: 40px!important;
+    text-align: justify;
+}
+
+/* input */
+.dropdown-toggle{
+    border-radius: 30px;
+    border: 3px solid #dadada !important;
+    display: block !important;
+}
+
+.dropdown-toggle:hover {
+    background: var(--light-tifany)!important;
+    border-color: var(--light-gray)!important;
+}
+
+.dropdown-toggle:active,.dropdown-toggle:focus{
+    border: none!important;
+    outline: none!important;
+}
+
+.dropdown-toggle:focus{
+    border: 1.5px solid var(--tifany)!important;
+}
+
+.dropdown-menu{
+    border: 1px solid var(--light-gray)!important;
+    border-radius: 15px !important;
+    overflow: scroll;
+    background: var(--white)!important;
+}
+.gap-dropdown{
+    margin: 0 3px!important;
+    padding: 0!important;
+}
+.dropdown-menu li{
+    text-align: center!important;
+    border-bottom: 1px solid var(--light-gray-10)!important;
+}
+
+.dropdown-menu li:last-child{
+    border-bottom: none!important;
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: var(--white)!important;
+    border: 1.5px solid var(--tifany) !important;
+}
+
+/* custom scrollbar */
+.dropdown-menu::-webkit-scrollbar , .dropdown-menu::scrollbar {
+    width: 20px!important;
+}
+
+.dropdown-menu::-webkit-scrollbar-track , .dropdown-menu::scrollbar-track {
+    background-color: transparent!important;
+    margin: 14px!important;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb , .dropdown-menu::scrollbar-thumb {
+    background-color: var(--light-gray)!important;
+    border-radius: 20px!important;
+    border: 6px solid transparent!important;
+    background-clip: content-box!important;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover , .dropdown-menu::scrollbar-thumb:hover {
+    background-color: var(--light-gray)!important;
+}
+
+
+.btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
+    color: var(--light-red)!important;
+    background-color: var(--white)!important;
+    border: 2px solid var(--light-red)!important;
+}
+
+.btn-success {
+    color: var(--light-green)!important;
+    background-color: var(--white)!important;
+    border: 2px solid var(--light-green)!important;
+}
+
+
+
+
+/* check solve button */
+#checkSolutionBtn{
+    background: var(--app-green)!important;
+    color: var(--white)!important;
+    padding: 0 !important;
+    width: 80px!important;
+    height: 80px!important;
+    -webkit-box-shadow: 2px 2px 3px #999!important;
+    box-shadow: 2px 2px 3px #999 !important;
+    -o-box-shadow: 2px 2px 3px #999 !important;
+    -moz-box-shadow: 2px 2px 3px #999 !important;
+    font-size: 30px!important;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 15px;
+    right: 40px;
+    text-align: center;
+}
+
+#checkSolutionBtn:hover{
+    opacity: 0.7!important;
+}
+
+/* meseage */
+#AppClientTaskPanel{
+    border-radius: 8px !important;
+    background-color: var(--white) !important;
+    border-top: 9px solid #DEB887 !important;
+    border-left: 1px solid var(--light-gray) !important;
+    border-right: 1px solid var(--light-gray) !important;
+    border-bottom: 1px solid var(--light-gray) !important;
+    padding: 25px!important;
+    -webkit-box-shadow:none !important;
+    box-shadow:none !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%)!important;
+    -webkit-transform: translateY(-50%) !important;
+    -o-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+}
+
+#AppClientTaskPanel p{
+    margin: 0 0 15px !important;
+    color: var(--light-black)!important;
+}
+
+#AppClientTaskPanel div{
+    color: var(--light-black)!important;
+    text-align: justify!important;
+}
+
+#AppClientTaskPanel div button{
+    font-size: 120%!important;
+    width: 100%!important;
+    margin: 25px 0 0!important;
+    padding: 5px!important;
+    border: none!important;
+    color: var(--white)!important;
+    background: var(--blue);
+    border-radius: 20px!important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#AppClientTaskPanel div button:hover{
+    opacity: 0.5!important;
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: -o-linear-gradient(top, var(--white),var(--black));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+    background: linear-gradient(to bottom, var(--white),var(--black));
+}
+
+/* display none of full screen */
+#AppClientFullscreenButton{
+    display: none !important;
+}
+
+#content > .card{
+    background: var(--app-green);
+    border-color: var(--app-green);
+    border-radius: 0.75em;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.glyphicon-check{
+    position: relative !important;
+    display: inline-block; !important;
+    line-height: 80px !important;
+    padding-left: 4px;
+}
+
+#AppClientTaskButton > a img{
+    display: none;
+}
+
+#AppClientTaskButton > a::before{
+    content: "?";
+    font-size: 35px;
+    padding: 0 10px;
+    border: 2px dotted black;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+#AppClientHelpButton {
+    right: 10px;
+    top: 10px;
+}
+/*jquery mobile css*/
+.ui-widget-header{
+    filter: sepia(1) saturate(500%) hue-rotate(40deg);
+}
+.ui-btn-up-b{
+    background-image: var(--blue) !important;
+    border: none;
+}
+.ui-btn-down-b{
+    background-image: var(--light-blue);
+}
+
+/*end of general css*/
 /*end of general css*/
 
 /*Input*/
