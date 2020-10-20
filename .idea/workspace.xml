@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Projects/Davilo_web/davilo_landing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,6 +71,7 @@
       <workItem from="1600091857159" duration="28777000" />
       <workItem from="1600799525259" duration="28264000" />
       <workItem from="1603133378853" duration="445000" />
+      <workItem from="1603178127306" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="setting up">
       <created>1599807580792</created>
@@ -380,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603133527343</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="texts fixed">
+      <created>1603178251228</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1603178251228</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="general background imported" />
     <MESSAGE value="breathing effect added" />
     <MESSAGE value="breathing effect updated" />
     <MESSAGE value="breathing effect updated2" />
@@ -424,7 +431,8 @@
     <MESSAGE value="table gap fixed" />
     <MESSAGE value="teble word placement fixed" />
     <MESSAGE value="no more external links" />
-    <option name="LAST_COMMIT_MESSAGE" value="no more external links" />
+    <MESSAGE value="texts fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="texts fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603134166268">
@@ -443,9 +451,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="445" y="84" width="465" height="633" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1599806815848" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603133541345">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603178253329">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603133541345" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603178253329" />
   </component>
 </project>
