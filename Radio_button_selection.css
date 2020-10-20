@@ -353,3 +353,6 @@ body{
     -ms-transform: translate(-50%,-50%) !important;
     -moz-transform: translate(-50%,-50%) !important;
 }
+.glyphicon-info-sign.infoicon{
+    margin-right: 20px;
+}
