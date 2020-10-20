@@ -281,24 +281,24 @@ body{
 /*end of general css*/
 
 #question-wrapper-wrapper{
-    height:auto!important
+    height:auto!important;
 }
 #question-wrapper{
     background:var(--light-tifany)!important;
     border:1px solid var(--light-gray-10)!important;
     -webkit-box-shadow:none!important;
     box-shadow:none!important;
-    max-width:422px!important
+    max-width:422px!important;
 }
 #question{
-    padding:60px 20px!important
+    padding:60px 20px!important;
 }
 #progress{
     border-radius:40px!important;
     -webkit-border-radius:40px!important;
     -moz-border-radius:40px!important;
     -ms-border-radius:40px!important;
-    -o-border-radius:40px!important
+    -o-border-radius:40px!important;
 }
 .card-select{
     width:100%!important;
@@ -309,10 +309,10 @@ body{
     position: initial;
 }
 .card-select:hover{
-    background:var(--light-gray-10)!important
+    background:var(--light-gray-10)!important;
 }
 #answers{
-    border-top:none!important
+    border-top:none!important;
 }
 .card{
     max-width:100%!important;
@@ -320,24 +320,29 @@ body{
     -webkit-box-shadow:none!important;
     box-shadow:none!important;
     height:70px!important;
-    width:400px!important
+    width:400px!important;
+    border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+
 }
 .resizeText{
     color:var(--light-black)!important;
     padding:10px 0!important;
-    font-size:1em!important
+    font-size:1em!important;
 }
 .checkBox{
-    padding:10px!important
+    padding:10px!important;
 }
 .glyphicon{
-    color:var(--light-black)!important
+    color:var(--light-black)!important;
 }
 .right{
-    border-color:var(--light-green)!important
+    border-color:var(--light-green)!important;
 }
 .verticalCenterBoxInner.checkBox i{
-    display: none;
+    position: absolute !important;
+    left: -100px;
+    line-height: initial !important;
 }
 .verticalCenterBoxInner{
     left: 50%;
@@ -348,4 +353,3 @@ body{
     -ms-transform: translate(-50%,-50%) !important;
     -moz-transform: translate(-50%,-50%) !important;
 }
-.verticalCenterBoxInner.checkBox .glyphicon-check
