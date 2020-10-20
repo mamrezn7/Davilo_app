@@ -301,10 +301,11 @@ body{
     -o-border-radius:40px!important
 }
 .card-select{
-    width:30%!important
+    width:100%!important;
+    border: none !important;
 }
 .card-answer{
-    width:62%!important;
+    width:100%!important;
     position: initial;
 }
 .card-select:hover{
@@ -320,9 +321,6 @@ body{
     box-shadow:none!important;
     height:70px!important;
     width:400px!important
-}
-.card-select{
-    border:none!important
 }
 .resizeText{
     color:var(--light-black)!important;
