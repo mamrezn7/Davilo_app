@@ -41,7 +41,7 @@ body{
 #content .gap-text{
     font-size: 18px!important;
     line-height: 40px!important;
-    text-align: justify;
+    text-align: left;
 }
 
 /* input */
