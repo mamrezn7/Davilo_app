@@ -262,6 +262,7 @@ body{
     right: 10px !important;
     top: 10px !important;
     left: auto !important;
+    margin-right: 10px !important;
 }
 #AppClientHelpButton img{
     width: 30px !important;
