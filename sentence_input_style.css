@@ -274,8 +274,8 @@ body{
 #AppClientHelpButton img{
     width: 30px !important;
 }
-*/
-/*jquery mobile css*/
+*//*
+!*jquery mobile css*!
 .ui-widget-header{
     filter: sepia(1) saturate(500%) hue-rotate(40deg);
 }
@@ -286,7 +286,7 @@ body{
 .ui-btn-down-b{
     background-image: var(--light-blue);
 }
-
+*/
 /*end of general css*/
 
 /*Input*/
