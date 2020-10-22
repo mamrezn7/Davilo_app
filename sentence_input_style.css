@@ -20,6 +20,7 @@
     --red:#fd7a91;
     --app-green: #13bf95;
 }
+/*
 
 html{
     scroll-behavior: smooth!important;
@@ -43,6 +44,7 @@ body{
     line-height: 40px!important;
     text-align: justify;
 }
+*/
 
 /* input */
 .dropdown-toggle{
@@ -281,7 +283,6 @@ body{
 /*end of general css*/
 
 /*Input*/
-/*
 
 .input-field{
     max-width: 98%;
@@ -289,4 +290,4 @@ body{
     font-size: inherit;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-}*/
+}
