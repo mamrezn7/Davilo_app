@@ -1,5 +1,5 @@
 /* General stylesheet for all games*/
-/*:root {
+:root {
     --tifany:#1DE9B6;
     --light-tifany: #B2DFDB;
     --light-orange-10:#ffcd7b;
@@ -19,8 +19,7 @@
     --light-red:#ffacaa;
     --red:#fd7a91;
     --app-green: #13bf95;
-}*/
-/*
+}
 
 html{
     scroll-behavior: smooth!important;
@@ -44,9 +43,8 @@ body{
     line-height: 40px!important;
     text-align: justify;
 }
-*/
-/*
-!* input *!
+
+/* input */
 .dropdown-toggle{
     border-radius: 30px;
     border: 3px solid #dadada !important;
@@ -89,10 +87,9 @@ body{
 .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
     background-color: var(--white)!important;
     border: 1.5px solid var(--tifany) !important;
-}*/
-/*
+}
 
-!* custom scrollbar *!
+/* custom scrollbar */
 .dropdown-menu::-webkit-scrollbar , .dropdown-menu::scrollbar {
     width: 20px!important;
 }
@@ -112,9 +109,7 @@ body{
 .dropdown-menu::-webkit-scrollbar-thumb:hover , .dropdown-menu::scrollbar-thumb:hover {
     background-color: var(--light-gray)!important;
 }
-*/
 
-/*
 
 .btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
     color: var(--light-red)!important;
@@ -129,11 +124,9 @@ body{
 }
 
 
-*/
 
-/*
 
-!* check solve button *!
+/* check solve button */
 #checkSolutionBtn{
     background: var(--app-green)!important;
     color: var(--white)!important;
@@ -156,7 +149,7 @@ body{
     opacity: 0.7!important;
 }
 
-!* meseage *!
+/* meseage */
 #AppClientTaskPanel{
     border-radius: 8px !important;
     background-color: var(--white) !important;
@@ -221,10 +214,7 @@ body{
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
 
-*/
-/*
-
-!* display none of full screen *!
+/* display none of full screen */
 #AppClientFullscreenButton{
     display: none !important;
 }
@@ -276,8 +266,7 @@ body{
 #AppClientHelpButton img{
     width: 30px !important;
 }
-*//*
-!*jquery mobile css*!
+/*jquery mobile css*/
 .ui-widget-header{
     filter: sepia(1) saturate(500%) hue-rotate(40deg);
 }
@@ -288,11 +277,10 @@ body{
 .ui-btn-down-b{
     background-image: var(--light-blue);
 }
-*/
+
 /*end of general css*/
 
 /*Input*/
-/*
 
 .input-field{
     max-width: 98%;
@@ -300,4 +288,4 @@ body{
     font-size: inherit;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-}*/
+}
