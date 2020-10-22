@@ -90,8 +90,9 @@ body{
     background-color: var(--white)!important;
     border: 1.5px solid var(--tifany) !important;
 }
+/*
 
-/* custom scrollbar */
+!* custom scrollbar *!
 .dropdown-menu::-webkit-scrollbar , .dropdown-menu::scrollbar {
     width: 20px!important;
 }
@@ -111,6 +112,7 @@ body{
 .dropdown-menu::-webkit-scrollbar-thumb:hover , .dropdown-menu::scrollbar-thumb:hover {
     background-color: var(--light-gray)!important;
 }
+*/
 
 
 .btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
