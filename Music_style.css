@@ -281,7 +281,5 @@ body{
 /*end of general css*/
 
 iframe{
-    display: none;
-    visibility: hidden;
     opacity: 0;
 }
